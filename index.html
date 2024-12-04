@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fliegen Aviation Institute</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+        <div class="header-logo">
+            <img src="logo.jpeg" alt="Institute Logo">
+        </div>
+        <div class="header-text">
+            <h1>Welcome to Fliegen Aviation Institute</h1>
+            <p>Your gateway to a successful career in aviation</p>
+        </div>
+    </header>
+    
+
+    <section class="about">
+      <div>
+        <h2>About Our Flagship Cabin Crew Course</h2>
+        <p>
+          Our Cabin Crew course is designed to prepare you for the dynamic and
+          rewarding world of aviation.
+        </p>
+      </div>
+      <div class="form">
+        <h3>Free Career Counselling is Just a Call Away!</h3>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone" required />
+
+          <button type="submit">Get Counselling</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="highlights">
+      <h2>Course Highlights</h2>
+      <div class="feature">
+        <h3>Practical Training</h3>
+        <p>Hands-on training with real-world scenarios.</p>
+      </div>
+      <div class="feature">
+        <h3>Industry Experts</h3>
+        <p>Learn from experienced professionals in the field.</p>
+      </div>
+      <div class="feature">
+        <h3>Placement Assistance</h3>
+        <p>Guaranteed placement support post-completion.</p>
+      </div>
+    </section>
+
+    <section class="courses">
+      <h2>Our Courses</h2>
+      <div class="course-list">
+        <button onclick="showDetails('cabin-crew')">Cabin Crew</button>
+        <button onclick="showDetails('ground-staff')">
+          Ground Staff & Retail
+        </button>
+        <button onclick="showDetails('soft-skills')">Soft Skills</button>
+      </div>
+      <div id="course-details">
+        <!-- Detailed syllabus and eligibility info will appear here -->
+      </div>
+    </section>
+
+    <section class="trainers">
+      <h2>Meet Our Trainer</h2>
+      <div>
+        <img
+          src="trainer-yashika.jpg"
+          alt="Ms. Yashika Sonkar"
+          style="width: 150px; border-radius: 50%"
+        />
+        <h3>Ms. Yashika Sonkar</h3>
+        <p>
+          With over a decade of experience in the aviation industry, Ms. Sonkar
+          brings unparalleled expertise and guidance.
+        </p>
+      </div>
+    </section>
+
+    <section class="alumni">
+      <h2>Our Alumni</h2>
+      <div class="alumni-list">
+        <div class="alumnus">
+          <img src="alumni1.jpg" alt="Alumnus 1" />
+          <p>John Doe - Emirates Airlines</p>
+        </div>
+        <div class="alumnus">
+          <img src="alumni2.jpg" alt="Alumnus 2" />
+          <p>Jane Smith - Indigo Airlines</p>
+        </div>
+        <div class="alumnus">
+          <img src="alumni3.jpg" alt="Alumnus 3" />
+          <p>Rahul Sharma - Air India</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Fliegen Aviation Institute. All Rights Reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
